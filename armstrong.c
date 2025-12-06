@@ -1,3 +1,35 @@
+/*Armstrong number
+Write a program to read the input and check if given number is Armstrong.
+
+If the number is Armstrong Print “Armstrong"
+Else, print "Not Armstrong".
+Note
+What is an Armstrong number?
+Armstrong number is 
+n
+n digit number where the sum of 
+n
+t
+h
+n 
+th
+  power of its each digits is equal to the same 
+n
+n digit number.
+
+Check the sample input / output given below.
+
+Input Format
+The first and only line of input will contain an integer 
+N
+N which we need to check if they are Armstrong
+Output Format
+For each test case, output on a new line the following
+
+If the number is Armstrong Print “Armstrong"
+Else, print "Not Armstrong".
+*/
+
 #include <stdio.h>
 
 long long power(int base, int exp) {
@@ -63,34 +95,3 @@ int main() {
     return 0;
 }
 
-/*Armstrong number
-Write a program to read the input and check if given number is Armstrong.
-
-If the number is Armstrong Print “Armstrong"
-Else, print "Not Armstrong".
-Note
-What is an Armstrong number?
-Armstrong number is 
-n
-n digit number where the sum of 
-n
-t
-h
-n 
-th
-  power of its each digits is equal to the same 
-n
-n digit number.
-
-Check the sample input / output given below.
-
-Input Format
-The first and only line of input will contain an integer 
-N
-N which we need to check if they are Armstrong
-Output Format
-For each test case, output on a new line the following
-
-If the number is Armstrong Print “Armstrong"
-Else, print "Not Armstrong".
-*/
