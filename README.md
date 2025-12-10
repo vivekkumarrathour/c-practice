@@ -2,7 +2,7 @@
 This Repo is a open source and practice for C programming.
 How to run the programs with MinGw in your Terminal
 1. gcc program.c -o program.exe 
-2. ./program.exe
+2. ./program.exe Or ./a
 
 Or you can use Code Runner Extension by Downloading it from the extensions
 
